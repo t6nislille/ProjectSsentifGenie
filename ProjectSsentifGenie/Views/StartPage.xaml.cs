@@ -6,4 +6,9 @@ public partial class StartPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void PullDay_Clicked(System.Object sender, EventArgs e)
+    {
+        Navigation.PushModalAsync(new PullDay());
+    }
 }

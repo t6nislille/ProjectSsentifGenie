@@ -52,11 +52,12 @@
             </Border.StrokeShape>
 
             <Button Text="Pull Day"
-                        FontSize="30"
-                        BackgroundColor="#6d597a"
-                        TextColor="#eaac8b"
-                        CornerRadius="20">
-            </Button>
+                    FontSize="30"
+                    BackgroundColor="#6d597a"
+                    TextColor="#eaac8b"
+                    CornerRadius="20"
+                    Clicked="PullDay_Clicked"/>
+
         </Border>
 
         <!-- Push Day button-->
