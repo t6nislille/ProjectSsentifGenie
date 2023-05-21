@@ -107,7 +107,8 @@
                         FontSize="30"
                         BackgroundColor="#6d597a"
                         TextColor="#eaac8b"
-                        CornerRadius="50">
+                        CornerRadius="50"
+                        Clicked="LegDay_Clicked">
             </Button>
         </Border>
     </Grid>
