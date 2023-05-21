@@ -10,7 +10,7 @@ public partial class PullDay : ContentPage
     protected override void OnAppearing()
     {
         base.OnAppearing();
-        pullday.ItemsSource = ExerciseServices.GetExercises();
+        pullday.ItemsSource = ExerciseServices.GetPullExercises();
     }
 
     private void BackButton_Clicked(System.Object sender, System.EventArgs e)

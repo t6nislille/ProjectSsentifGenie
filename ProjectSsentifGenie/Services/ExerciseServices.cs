@@ -100,9 +100,82 @@ namespace ProjectSsentifGenie.Services
 
         };
 
-        public static List<Exercise> GetExercises()
+        private static readonly List<Exercise> pushday = new()
+        {
+            new()
+            {
+                Name = " Flat Dumbbell Bench Press",
+                GroupType = " Chest Exercise",
+                Instructions = " 1. Lie on your back on a flat bench with a dumbbell in each hand.\r\n 2. Press the dumbbells up until your arms are straight.\r\n 3. Lower the dumbbells down until your arms are at a 90-degree angle. You may go slightly lower until you get a good stretch.\r\n 4. Press the dumbbells back up until your arms are straight. Repeat for the desired number of repetitions.\r\nTips: Make sure to keep your back flat on the bench and your feet flat on the floor. Try to go heavy on this exercise while still maintaining good form.",
+                ImageUrl = "https://i.shgcdn.com/0c1706b0-37a5-48a4-b1b6-9c732b5d02d2/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+            },
+
+            new()
+            {
+                Name = " Incline Bench Press",
+                GroupType = " Chest Exercise",
+                Instructions = " 1. Lie on your back on an incline bench with a barbell positioned above you. " +
+                "Squeeze your shoulder blades together tightly to create a solid and stable position on the bench.\r\n 2. Lift the weight upward until your arms are straight.\r\n 3. Lower the weight down until it is a few inches away from touching your chest.\r\n 4. Press the weights back up until your arms are straight. Repeat for the desired number of repetitions.\r\nTips: Make sure to keep your back flat on the bench and your feet flat on the floor. Shifting around can cause injuries and indicates that the weight is too heavy.",
+                ImageUrl = "https://i.shgcdn.com/fb804e90-1738-4f87-a46c-d01040b3a76e/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+            },
+
+            new()
+            {
+                Name = " Dips",
+                GroupType = " Chest & Triceps Exercise",
+                Instructions = " 1. Position yourself on a dip station or a chair with your hands shoulder-width apart.\r\n 2. Extend your legs out in front of you at a 45-degree angle.\r\n 3. Lower your body down by bending your elbows until they reach a 90-degree angle. You don't have to go all the way to 90-degrees but try to get as close as possible.\r\n 4. Press your body back up until your arms are straight. Repeat for the desired number of repetitions.\r\nTips: Keep your back straight and avoid rounding your shoulders as you dip down. You may feel the urge to lean your head forward but try your best to keep your head up.",
+                ImageUrl = "https://i.shgcdn.com/7f0fb43c-f324-4a00-b46b-5f631e853509/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+            },
+
+            new()
+            {
+                Name = " Triceps Pushdown",
+                GroupType = " Triceps Exercise",
+                Instructions = " 1. Attach a horizontal cable bar to the pulley machine.\r\n 2. Grip the bar with your hands positioned shoulder-width apart.\r\n 3. Keeping your elbows close to your sides, push the bar down until your arms are fully extended.\r\n 4. Release the tension and allow your arms to return to the starting position. Repeat for the desired number of repetitions.\r\nTips: Avoid swinging your arms as you push the bar down as this can lead to injury. Instead, focus the weight throughout your triceps and push down along your sternum.",
+                ImageUrl = "https://i.shgcdn.com/9717db44-3098-49f1-8ad5-2def26d58c7e/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+            },
+
+            new()
+            {
+                Name = " Skullcrushers",
+                GroupType = " Triceps Exercise",
+                Instructions = " 1. Lie down on a flat bench with a barbell or dumbbells positioned above your chest.\r\n 2. Grip the EZ bar or dumbbells with your hands shoulder-width apart or slightly closer.\r\n 3. Keeping your elbows close to your sides, lower the weight down until it is at your forehead.\r\n 4. Press the weight back up until your arms are straight. Repeat for the desired number of repetitions.\r\nTips: Avoid swinging the weight backward as you lower the weight down. This exercise requires a lot of control to avoid injury. If the weight is too heavy for you to bring it back without swinging it, go lighter!",
+                ImageUrl = "https://i.shgcdn.com/065ff229-5149-45e8-a157-4dd80ac5df85/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+            },
+
+            new()
+            {
+                Name = " Seated Triceps Extensions",
+                GroupType = " Triceps Exercise",
+                Instructions = " 1. Sit on a bench or chair with a dumbbell positioned behind your head.\r\n 2. Grip the weight with both hands and press it up until your arms are fully extended.\r\n 3. Keeping your elbows close to your sides, lower the weight down until it is at your forehead.\r\n 4. Press the weight back up until your arms are straight. Repeat for the desired number of repetitions.\r\nTips: As with the other tricep exercises, focus on keeping your elbows close to your sides to really target the muscle group. You may feel the urge to arch your back but try your best to keep your back flat against the bench.",
+                ImageUrl = "https://i.shgcdn.com/a8bf95d4-6832-4770-b326-358c1063a400/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+            },
+
+            new()
+            {
+                Name = " Dumbbell Shoulder Press",
+                GroupType = " Shoulder Exercise",
+                Instructions = " 1. Sit on an upright bench with a dumbbell in each hand.\r\n 2. Position the weights at your shoulders with your palms facing forward.\r\n 3. Press the dumbbells up until your arms are straight.\r\n 4. Lower the dumbbells down until they are at a 90-degree angle.\r\n 5. Press the dumbbells back up until your arms are straight. Repeat for the desired number of repetitions.\r\nTips: As with the other exercises, keep your back straight and avoid rounding your shoulders. You may feel the urge to lean your head forward but try your best to keep your head up.",
+                ImageUrl = "https://i.shgcdn.com/8cdd4abd-0c5a-46f0-aad3-462c9cf9a49f/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+            },
+
+            new()
+            {
+                Name = " Side Lateral Raises",
+                GroupType = " Shoulder Exercise",
+                Instructions = " 1. Stand with your feet shoulder-width apart with a dumbbell in each hand.\r\n 2. Raise your arms out to the side until they are at shoulder height or slightly higher.\r\n 3. Lower your arms back down to your sides. Repeat for the desired number of repetitions.\r\nTips: Avoid swinging your arms as you raise them up as this can lead to injury. Instead, focus on using your shoulder muscles to lift the weight up using a controlled motion.",
+                ImageUrl = "https://i.shgcdn.com/3e7857c6-291e-4121-a9e6-af10f39affc9/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+            },
+        };
+
+        public static List<Exercise> GetPullExercises()
         {
             return pullday;
+        }
+
+        public static List<Exercise> GetPushExercises()
+        {
+            return pushday;
         }
     }
 }

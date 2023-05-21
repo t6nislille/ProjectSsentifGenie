@@ -10,7 +10,7 @@ public partial class PushDay : ContentPage
     protected override void OnAppearing()
     {
         base.OnAppearing();
-        pushday.ItemsSource = ExerciseServices.GetExercises();
+        pushday.ItemsSource = ExerciseServices.GetPushExercises();
     }
 
     private void BackButton_Clicked(System.Object sender, System.EventArgs e)
