@@ -23,9 +23,57 @@
             BackgroundColor="#012a4a"
             Clicked="BackButton_Clicked"/>
 
-        <ScrollView>
-            
-        </ScrollView>
+        <ScrollView
+            Grid.Row="1"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            HorizontalScrollBarVisibility="Never"
+            VerticalScrollBarVisibility="Never"
+            Margin="0,20,0,0">
 
+            <VerticalStackLayout
+                Spacing="20">
+
+                <Image
+                    Source="{Binding ImageUrl}"
+                    Aspect="AspectFill"
+                    HorizontalOptions="Fill"
+                    HeightRequest="350"
+                    Margin="30,0" />
+
+                <Label
+                    Margin="28,0,0,0"
+                    Text="{Binding Name}"
+                    FontSize="25"
+                    TextColor="#6d597a"/>
+
+                <Rectangle
+                    HorizontalOptions="Fill"
+                    HeightRequest="2"
+                    Stroke="#6d597a"
+                    Fill="{StaticResource LightBorderColor}" />
+
+                <Label
+                    Margin="28,0,0,0"
+                    LineBreakMode="WordWrap"
+                    FontSize="20"
+                    TextColor="#6d597a"
+                    Text="{Binding GroupType}" />
+
+                <Rectangle
+                    HorizontalOptions="Fill"
+                    HeightRequest="2"
+                    Stroke="#6d597a"
+                    Fill="{StaticResource LightBorderColor}" />
+
+                <Label
+                    Margin="28,0,0,0"
+                    LineBreakMode="WordWrap"
+                    Text=" {Binding Instructions} "
+                    TextColor="#6d597a">
+
+                </Label>
+            </VerticalStackLayout>
+        </ScrollView>
     </Grid>
 </ContentPage>
