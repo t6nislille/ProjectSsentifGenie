@@ -14,7 +14,7 @@ namespace ProjectSsentifGenie.Services
             {
                 Name = " Pull-Ups",
                 GroupType = " Back Exercise",
-                Instructions = " Start by gripping a pull-up bar with your knuckles facing towards your face and your arms fully extended.\r\nBend your knees and cross your feet behind you.\r\nPull yourself up until your chin is above the bar.\r\nLower yourself back into the starting posture.\r\nRepeat for the desired number of repetitions.\r\nTips: Make sure to extend your arms for an optimal range of motion fully. If you can do more than 12 repetitions, try adding weight by wearing a weight belt or holding a dumbbell between your feet.",
+                Instructions = " 1. Start by gripping a pull-up bar with your knuckles facing towards your face and your arms fully extended.\r\n 2. Bend your knees and cross your feet behind you.\r\n 3. Pull yourself up until your chin is above the bar.\r\n 4. Lower yourself back into the starting posture.\r\n 5. Repeat for the desired number of repetitions.\r\n Tips: Make sure to extend your arms for an optimal range of motion fully. If you can do more than 12 repetitions, try adding weight by wearing a weight belt or holding a dumbbell between your feet.",
                 ImageUrl = " https://i.shgcdn.com/02a8623c-c7a9-4480-afa3-a52d1b7bb819/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
             },
 
@@ -22,7 +22,7 @@ namespace ProjectSsentifGenie.Services
             {
                 Name = " Deadlifts",
                 GroupType = " Back, Legs & Core Exercise",
-                Instructions = " Start by standing with your feet shoulder-width apart and a slight bend in your knees.\r\nBend your hips and knees while holding the bar and position your hands roughly shoulder-width apart.\r\nKeeping your back straight, lift the bar off the ground and stand up.\r\nLower the bar back to the ground and repeat for the desired number of repetitions.\r\nTips: If you cannot do a deadlift with proper form, try doing them with a lighter weight or try using a trap bar.",
+                Instructions = " 1. Start by standing with your feet shoulder-width apart and a slight bend in your knees.\r\n 2. Bend your hips and knees while holding the bar and position your hands roughly shoulder-width apart.\r\n 3. Keeping your back straight, lift the bar off the ground and stand up.\r\n 4. Lower the bar back to the ground and repeat for the desired number of repetitions.\r\n Tips: If you cannot do a deadlift with proper form, try doing them with a lighter weight or try using a trap bar.",
                 ImageUrl = " https://i.shgcdn.com/db0c82d5-e90a-469f-9145-e5370594e7b0/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
             },
 
@@ -30,7 +30,7 @@ namespace ProjectSsentifGenie.Services
             {
                 Name = " Lat Pulldowns",
                 GroupType = " Lats Exercise",
-                Instructions = " Start by sitting on a lat pulldown machine with your knees bent and your feet flat on the floor.\r\nReach up and grab the bar with your palms facing away from you and your hands shoulder-width apart.\r\nPull the bar down to your chest, keeping your back straight and your elbows in.\r\nSlowly return the bar and repeat the motion for the desired number of repetitions.\r\nTips: Make sure to stretch your arms at the top to activate the lats optimally. Go all the way down to your upper chest and repeat.",
+                Instructions = " 1. Start by sitting on a lat pulldown machine with your knees bent and your feet flat on the floor.\r\n 2. Reach up and grab the bar with your palms facing away from you and your hands shoulder-width apart.\r\n 3. Pull the bar down to your chest, keeping your back straight and your elbows in.\r\n 4. Slowly return the bar and repeat the motion for the desired number of repetitions.\r\nTips: Make sure to stretch your arms at the top to activate the lats optimally. Go all the way down to your upper chest and repeat.",
                 ImageUrl = " https://i.shgcdn.com/4a56b60f-112a-4090-b9c0-2bdb4b7891ac/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
             },
 
@@ -38,7 +38,7 @@ namespace ProjectSsentifGenie.Services
             {
                 Name = " Barbell Rows",
                 GroupType = " Back & Lats Exercise",
-                Instructions = " Start by standing with your feet shoulder-width apart and a slight bend in your knee.\r\nBend at your hips and grip the bar with your hands shoulder-width apart.\r\nKeeping your back straight, lower your torso until it is parallel to the floor.\r\nRow the bar up to your abdominals, keeping your elbows tucked in.\r\nReturn the bar and repeat the motion for the desired number of repetitions.\r\nTips: If you struggle to lift the weight while bending over, use a lighter weight or an assisted rowing machine until you master the motion.",
+                Instructions = " 1. Start by standing with your feet shoulder-width apart and a slight bend in your knee.\r\n 2. Bend at your hips and grip the bar with your hands shoulder-width apart.\r\n 3. Keeping your back straight, lower your torso until it is parallel to the floor.\r\n 4. Row the bar up to your abdominals, keeping your elbows tucked in.\r\n 5. Return the bar and repeat the motion for the desired number of repetitions.\r\nTips: If you struggle to lift the weight while bending over, use a lighter weight or an assisted rowing machine until you master the motion.",
                 ImageUrl = " https://i.shgcdn.com/bfc65d2d-a773-471c-bfa5-c892aaad03b5/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
             },
 
@@ -46,7 +46,7 @@ namespace ProjectSsentifGenie.Services
             {
                 Name = " Dumbbell Rows",
                 GroupType = " Back & Lats Exercise",
-                Instructions = " Start by standing with your feet hip-width apart and one knee resting on a bench.\r\nBend at your hips while holding a dumbbell in each hand. Place the other hand on the bench for support.\r\nKeeping your back straight, lower your torso until your body is at a 45-degree angle.\r\nPull the dumbbell up to your chest, keeping your elbow close to your side.\r\nLower the dumbbell back to the starting position and repeat for the desired number of repetitions.\r\nTips: If you'd prefer to row using both arms simultaneously, simply stand with a slight bend in your knees and lean forward until your waist is at a 45-degree angle.",
+                Instructions = " 1. Start by standing with your feet hip-width apart and one knee resting on a bench.\r\n 2. Bend at your hips while holding a dumbbell in each hand. Place the other hand on the bench for support.\r\n 3. Keeping your back straight, lower your torso until your body is at a 45-degree angle.\r\n 4. Pull the dumbbell up to your chest, keeping your elbow close to your side.\r\n 5. Lower the dumbbell back to the starting position and repeat for the desired number of repetitions.\r\nTips: If you'd prefer to row using both arms simultaneously, simply stand with a slight bend in your knees and lean forward until your waist is at a 45-degree angle.",
                 ImageUrl = " https://i.shgcdn.com/7b4bd650-1a0b-49ad-bef0-ec4f1331c6e9/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
             },
 
@@ -54,7 +54,7 @@ namespace ProjectSsentifGenie.Services
             {
                 Name = " Pullovers",
                 GroupType = " Chest & Lats Execise",
-                Instructions = " Start by lying on a bench with your knees bent and your feet flat on the floor.\r\nHold the dumbbell with your palms facing away from you and your hands roughly shoulder-width apart.\r\nRaise the weight over your head while keeping your arms straight.\r\nBend your arms at the elbows and lower the weights until they are completely behind you.\r\nRaise the weight back over your head and repeat for the desired number of repetitions.\r\nTips: If you're using a dumbbell, hold it with both hands.",
+                Instructions = " 1. Start by lying on a bench with your knees bent and your feet flat on the floor.\r\n 2. Hold the dumbbell with your palms facing away from you and your hands roughly shoulder-width apart.\r\n 3. Raise the weight over your head while keeping your arms straight.\r\n 4. Bend your arms at the elbows and lower the weights until they are completely behind you.\r\n 5. Raise the weight back over your head and repeat for the desired number of repetitions.\r\nTips: If you're using a dumbbell, hold it with both hands.",
                 ImageUrl = " https://i.shgcdn.com/def0b7e3-4e54-43ed-8cc1-1a680ada92bc/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
             },
 
@@ -62,7 +62,7 @@ namespace ProjectSsentifGenie.Services
             {
                 Name = " Dumbbell Shrugs",
                 GroupType = " Trapezius Exercise",
-                Instructions = " Start by standing with your feet hip-width apart and your knees slightly bent.\r\nHold a dumbbell in each hand, with your curled fingers facing the sides of your thighs.\r\nKeeping your arms straight, lift your shoulders up to your earlobes.\r\nLower your shoulders and repeat for the desired number of repetitions.\r\nTips: Make sure to squeeze the trapezius and lift your shoulders up to your ears for maximum contraction.",
+                Instructions = "1. Start by standing with your feet hip-width apart and your knees slightly bent.\r\n 2. Hold a dumbbell in each hand, with your curled fingers facing the sides of your thighs.\r\n 3. Keeping your arms straight, lift your shoulders up to your earlobes.\r\n 4. Lower your shoulders and repeat for the desired number of repetitions.\r\nTips: Make sure to squeeze the trapezius and lift your shoulders up to your ears for maximum contraction.",
                 ImageUrl = " https://i.shgcdn.com/60d2968b-8ffa-40e6-94a1-d3c16e2eb940/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
             },
 
@@ -70,7 +70,7 @@ namespace ProjectSsentifGenie.Services
             {
                 Name = " Face Pulls",
                 GroupType = " Shoulder Exercise",
-                Instructions = " Start by standing with your feet hip-width apart and your knees slightly bent.\r\nGrip the cable with your palms facing away from you and your hands shoulder-width apart.\r\nPull the cable towards your face, keeping your elbows close to your sides.\r\nSlowly return the cable to the starting position and repeat for the desired number of repetitions.\r\nTips: If you're having trouble keeping your arms straight, try using a lighter weight.",
+                Instructions = " 1. Start by standing with your feet hip-width apart and your knees slightly bent.\r\n 2. Grip the cable with your palms facing away from you and your hands shoulder-width apart.\r\n 3. Pull the cable towards your face, keeping your elbows close to your sides.\r\n 4. Slowly return the cable to the starting position and repeat for the desired number of repetitions.\r\nTips: If you're having trouble keeping your arms straight, try using a lighter weight.",
                 ImageUrl = " https://i.shgcdn.com/e65e714c-b8fb-4c7c-8633-d232a4ee71fa/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
             },
 
@@ -78,7 +78,7 @@ namespace ProjectSsentifGenie.Services
             {
                 Name = " Barbell Biceps Curls",
                 GroupType = " Biceps Exercise",
-                Instructions = " Start by standing with your feet hip-width apart.\r\nGrip a barbell in your hand with your palms facing your thighs.\r\nWith your elbows tucked into your sides, lift the barbell towards your shoulders.\r\nLower the weights back down to the starting position and repeat for the desired number of repetitions.\r\nTips: If you don't like using barbells, you can use dumbbells to work your biceps individually.",
+                Instructions = " 1. Start by standing with your feet hip-width apart.\r\n 2. Grip a barbell in your hand with your palms facing your thighs.\r\n 3. With your elbows tucked into your sides, lift the barbell towards your shoulders.\r\n 4. Lower the weights back down to the starting position and repeat for the desired number of repetitions.\r\nTips: If you don't like using barbells, you can use dumbbells to work your biceps individually.",
                 ImageUrl = " https://i.shgcdn.com/0d4cbf81-19e6-4ce2-ba5b-990ba801a5ef/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
             },
 
@@ -86,7 +86,7 @@ namespace ProjectSsentifGenie.Services
             {
                 Name = " Dumbbell Preacher Curls",
                 GroupType = " Biceps Exercise",
-                Instructions = " Start by sitting on a preacher curl bench with your feet flat on the floor.\r\nGrip a dumbbell in each hand with your palms facing your thighs.\r\nRest your arms on the pad in front of you and curl the weights up to your shoulders.\r\nLower the weights back down to the starting position and repeat for the desired number of repetitions.\r\nTips: Fully extend your arms nearly all the way down to activate the biceps completely.",
+                Instructions = "1.  Start by sitting on a preacher curl bench with your feet flat on the floor.\r\n 2. Grip a dumbbell in each hand with your palms facing your thighs.\r\n 3. Rest your arms on the pad in front of you and curl the weights up to your shoulders.\r\n 4. Lower the weights back down to the starting position and repeat for the desired number of repetitions.\r\nTips: Fully extend your arms nearly all the way down to activate the biceps completely.",
                 ImageUrl = " https://i.shgcdn.com/a382e76d-6ca2-4275-b346-9e83dae0223a/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
             },
 
@@ -94,7 +94,7 @@ namespace ProjectSsentifGenie.Services
             {
                 Name = " Cable Curls",
                 GroupType = " Biceps Exercise",
-                Instructions = " Start by standing with your feet hip-width apart.\r\nGrip the cable with your palms facing away from you and your hands shoulder-width apart.\r\nKeeping your elbows close to your sides, curl the cable up to your shoulders.\r\nLower the cable back down to the starting position and repeat for the desired number of repetitions.\r\nTips: We recommend using individual attachment to isolate your bicep muscles specifically.",
+                Instructions = " 1. Start by standing with your feet hip-width apart.\r\n 2. Grip the cable with your palms facing away from you and your hands shoulder-width apart.\r\n 3. Keeping your elbows close to your sides, curl the cable up to your shoulders.\r\n 4. Lower the cable back down to the starting position and repeat for the desired number of repetitions.\r\nTips: We recommend using individual attachment to isolate your bicep muscles specifically.",
                 ImageUrl = " https://i.shgcdn.com/16f1da3e-1670-466b-98ff-4a18143c63dd/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
             },
 
@@ -174,7 +174,7 @@ namespace ProjectSsentifGenie.Services
             {
                 Name = " Squats",
                 GroupType = " Quads, Hamstrings and Glutes Exercise",
-                Instructions = "  Stand at a squatting station with your feet positioned roughly shoulder-width apart and your toes angled slightly outward.\r\nDuck beneath the weighted bar so that it rests across the back of your shoulders.\r\nPress up while keeping your back and neck as straight as possible, lifting the bar from the station.\r\nBend your knees until your thighs are just about parallel to the floor so that your hip joints are lower than your knees.\r\nSlowly raise your body back up until you are in the starting posture.\r\nTips: Keep your body and core tight throughout the entire movement. Get your form nailed down before you start adding weight to the bar.",
+                Instructions = "  1. Stand at a squatting station with your feet positioned roughly shoulder-width apart and your toes angled slightly outward.\r\n 2. Duck beneath the weighted bar so that it rests across the back of your shoulders.\r\n 3. Press up while keeping your back and neck as straight as possible, lifting the bar from the station.\r\n 4. Bend your knees until your thighs are just about parallel to the floor so that your hip joints are lower than your knees.\r\n 5. Slowly raise your body back up until you are in the starting posture.\r\nTips: Keep your body and core tight throughout the entire movement. Get your form nailed down before you start adding weight to the bar.",
                 ImageUrl = " https://i.shgcdn.com/eed01c43-1cf1-4ab5-bc04-5d1b665acc44/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
             },
 
@@ -182,7 +182,7 @@ namespace ProjectSsentifGenie.Services
             {
                 Name = " Leg Press",
                 GroupType = " Quads, Hamstrings and Glutes Exercise",
-                Instructions = "  Sit in a leg press machine and place your feet onto the footplate. Your feet should be spread roughly hip-width apart.\r\nUnlock the safety lever and allow the weight to lower towards you until your knees are bent at roughly a 90-degree angle.\r\nWith your back pressed firmly against the seat, exhale while you press the weight away until your legs are completely straight.\r\nSlowly lower the weight back down into the starting position and repeat.\r\nTips: To make the exercise more challenging, you can try doing single-leg presses or elevated leg presses.",
+                Instructions = "  1. Sit in a leg press machine and place your feet onto the footplate. Your feet should be spread roughly hip-width apart.\r\n 2. Unlock the safety lever and allow the weight to lower towards you until your knees are bent at roughly a 90-degree angle.\r\n 3. With your back pressed firmly against the seat, exhale while you press the weight away until your legs are completely straight.\r\n 4. Slowly lower the weight back down into the starting position and repeat.\r\nTips: To make the exercise more challenging, you can try doing single-leg presses or elevated leg presses.",
                 ImageUrl = " https://i.shgcdn.com/54122c2b-0742-41e2-b2ab-94a7b4749063/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
             },
 
@@ -190,7 +190,7 @@ namespace ProjectSsentifGenie.Services
             {
                 Name = " Hack Squats",
                 GroupType = " Quads, Hamstrings and Glutes Exercise",
-                Instructions = "  Stand on a linear press machine and recline with your back against the rest. Slide your shoulders under the shoulder pads and position your feet roughly shoulder-width apart. If there are handles in place, grip the handles with your elbows facing forward.\r\nBend your knees and lower through your hips until your knees are at roughly a 90-degree angle.\r\nKeeping your back straight, press up through your heels to raise the weight back up into the starting position.\r\nRepeat for the desired number of repetitions.\r\nTips: Be sure to lower your legs until they are slightly below parallel with the floor. This is where you'll experience the best results.",
+                Instructions = "  1. Stand on a linear press machine and recline with your back against the rest. Slide your shoulders under the shoulder pads and position your feet roughly shoulder-width apart. If there are handles in place, grip the handles with your elbows facing forward.\r\n 2. Bend your knees and lower through your hips until your knees are at roughly a 90-degree angle.\r\n 3. Keeping your back straight, press up through your heels to raise the weight back up into the starting position.\r\nRepeat for the desired number of repetitions.\r\nTips: Be sure to lower your legs until they are slightly below parallel with the floor. This is where you'll experience the best results.",
                 ImageUrl = " https://i.shgcdn.com/0e35d405-030c-4ae5-be22-2e41a9ee3309/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
             },
 
@@ -198,7 +198,7 @@ namespace ProjectSsentifGenie.Services
             {
                 Name = " Leg Extension",
                 GroupType = " Quads Exercise",
-                Instructions = "  Adjust the machine so that your knees are in line with the pivot point and your feet are placed under the padded lever.\r\nChoose a weight that you can comfortably manage and grip the handles, if available.\r\nKeeping your back straight, exhale as you extend your legs forward until they are straight.\r\nPause for a count of two and then slowly lower the weight back down into its starting position.\r\nRepeat the motion for the desired number of repetitions.\r\nTips: If you are new to this exercise, start with a lighter weight and increase the weight as you become more comfortable with the movement.",
+                Instructions = "  1. Adjust the machine so that your knees are in line with the pivot point and your feet are placed under the padded lever.\r\n 2. Choose a weight that you can comfortably manage and grip the handles, if available.\r\n 3. Keeping your back straight, exhale as you extend your legs forward until they are straight.\r\n 4. Pause for a count of two and then slowly lower the weight back down into its starting position.\r\n 5. Repeat the motion for the desired number of repetitions.\r\nTips: If you are new to this exercise, start with a lighter weight and increase the weight as you become more comfortable with the movement.",
                 ImageUrl = " https://i.shgcdn.com/7d7f954a-e744-4d80-b5fe-2b64a857ec44/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
             },
 
@@ -206,7 +206,7 @@ namespace ProjectSsentifGenie.Services
             {
                 Name = " Leg Curl",
                 GroupType = " Hammstrings Exercise",
-                Instructions = "  Adjust the length of the machine so that your knees are in line with the pivot point and the backs of your legs are placed under the padded levers.\r\nAdjust the weight to something you can comfortably manage and hold the handles, if available.\r\nWith your back straight, curl your legs up towards your glutes while exhaling through the motion.\r\nTake a second or two to pause, and then slowly lower the weight back down until you are in the starting position again.\r\nRepeat the exercise for the desired number of repetitions.\r\nTips: This motion can feel awkward if you're new to the exercise. Start with a lighter weight and increase over time as you become more comfortable with the movement.",
+                Instructions = "  1. Adjust the length of the machine so that your knees are in line with the pivot point and the backs of your legs are placed under the padded levers.\r\n 2. Adjust the weight to something you can comfortably manage and hold the handles, if available.\r\n 3. With your back straight, curl your legs up towards your glutes while exhaling through the motion.\r\n 4. Take a second or two to pause, and then slowly lower the weight back down until you are in the starting position again.\r\n 5. Repeat the exercise for the desired number of repetitions.\r\nTips: This motion can feel awkward if you're new to the exercise. Start with a lighter weight and increase over time as you become more comfortable with the movement.",
                 ImageUrl = " https://i.shgcdn.com/0532cb31-06bb-4210-ad8b-7bf1a398af31/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
             },
 
@@ -214,7 +214,7 @@ namespace ProjectSsentifGenie.Services
             {
                 Name = " Lunges",
                 GroupType = " Quads, Hamstrings and Glutes Exercise",
-                Instructions = "  Start by standing with your feet together and your hands down by your sides.\r\nStep forward with one leg and lower your body towards the floor by bending both knees.\r\nYour front knee should be at roughly a 90-degree angle, and your back knee should be close to the floor but not resting on it.\r\nFrom here, push off your front leg and return to the starting position as if you were taking a step.\r\nRepeat the exercise with your other leg.\r\nTips: To make this exercise more challenging, try holding dumbbells in each hand or holding a barbell across your shoulders. You can also move forward through the exercise to make it more dynamic.",
+                Instructions = "  1. Start by standing with your feet together and your hands down by your sides.\r\n 2. Step forward with one leg and lower your body towards the floor by bending both knees.\r\n 3. Your front knee should be at roughly a 90-degree angle, and your back knee should be close to the floor but not resting on it.\r\n 4. From here, push off your front leg and return to the starting position as if you were taking a step.\r\n 5. Repeat the exercise with your other leg.\r\nTips: To make this exercise more challenging, try holding dumbbells in each hand or holding a barbell across your shoulders. You can also move forward through the exercise to make it more dynamic.",
                 ImageUrl = " https://i.shgcdn.com/fb379ee5-36ff-46f2-a8c3-0725cd88a8f0/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
             },
 
@@ -222,7 +222,7 @@ namespace ProjectSsentifGenie.Services
             {
                 Name = " Standing Calf Raises",
                 GroupType = " Calves Exercise",
-                Instructions = "  Get positioned on an exercise step or a weight plate to create a full range of motion for this movement.\r\nStand with your feet placed together, and have the ball of your foot rest on the edge of the exercise step or weight plate.\r\nHold your hands down by your sides. You may hold a dumbbell in each hand for additional weight.\r\nProceed to raise your body up onto your toes.\r\nLower your body back down into the starting posture.\r\nTips: As with lunges, you can also move forward through the exercise to make it more dynamic.",
+                Instructions = "  1. Get positioned on an exercise step or a weight plate to create a full range of motion for this movement.\r\n 2. Stand with your feet placed together, and have the ball of your foot rest on the edge of the exercise step or weight plate.\r\n 3. Hold your hands down by your sides. You may hold a dumbbell in each hand for additional weight.\r\n 4. Proceed to raise your body up onto your toes.\r\n 5. Lower your body back down into the starting posture.\r\nTips: As with lunges, you can also move forward through the exercise to make it more dynamic.",
                 ImageUrl = " https://i.shgcdn.com/60bac4e9-4e55-4101-9141-956d0b1092c1/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
             },
 
