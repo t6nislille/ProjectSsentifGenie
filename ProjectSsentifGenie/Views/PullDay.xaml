@@ -17,12 +17,13 @@
             WidthRequest="30"
             HeightRequest="20"
             Margin="-10,-30,0,0"
-            Source="backimg.png"
+            Source="imgback.png"
             Grid.Row="0"
             Grid.Column="0"
             HorizontalOptions="Start"
             VerticalOptions="Start"
-            BackgroundColor="#012a4a"/>
+            BackgroundColor="#012a4a"
+            Clicked="BackButton_Clicked"/>
 
         <!-- Main content -->
         <ScrollView
