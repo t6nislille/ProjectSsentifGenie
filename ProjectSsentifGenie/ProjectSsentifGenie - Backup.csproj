@@ -49,6 +49,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\imgback.png" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiXaml Update="Views\PullDay.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
