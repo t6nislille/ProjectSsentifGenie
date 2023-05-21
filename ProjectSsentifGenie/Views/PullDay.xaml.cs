@@ -6,4 +6,10 @@ public partial class PullDay : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
+        pullday.ItemsSource = ExerciseServices.GetExercises();
+    }
 }
