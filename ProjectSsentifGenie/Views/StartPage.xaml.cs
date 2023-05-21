@@ -11,4 +11,9 @@ public partial class StartPage : ContentPage
     {
         Navigation.PushModalAsync(new PullDay());
     }
+
+    private void PushDay_Clicked(System.Object sender, EventArgs e)
+    {
+        Navigation.PushModalAsync(new PushDay());
+    }
 }
