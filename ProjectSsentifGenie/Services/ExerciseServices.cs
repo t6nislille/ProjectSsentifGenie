@@ -168,6 +168,66 @@ namespace ProjectSsentifGenie.Services
             },
         };
 
+        private static readonly List<Exercise> legday = new()
+        {
+            new()
+            {
+                Name = " Squats",
+                GroupType = " Quads, Hamstrings and Glutes Exercise",
+                Instructions = "  Stand at a squatting station with your feet positioned roughly shoulder-width apart and your toes angled slightly outward.\r\nDuck beneath the weighted bar so that it rests across the back of your shoulders.\r\nPress up while keeping your back and neck as straight as possible, lifting the bar from the station.\r\nBend your knees until your thighs are just about parallel to the floor so that your hip joints are lower than your knees.\r\nSlowly raise your body back up until you are in the starting posture.\r\nTips: Keep your body and core tight throughout the entire movement. Get your form nailed down before you start adding weight to the bar.",
+                ImageUrl = " https://i.shgcdn.com/eed01c43-1cf1-4ab5-bc04-5d1b665acc44/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+            },
+
+            new()
+            {
+                Name = " Leg Press",
+                GroupType = " Quads, Hamstrings and Glutes Exercise",
+                Instructions = "  Sit in a leg press machine and place your feet onto the footplate. Your feet should be spread roughly hip-width apart.\r\nUnlock the safety lever and allow the weight to lower towards you until your knees are bent at roughly a 90-degree angle.\r\nWith your back pressed firmly against the seat, exhale while you press the weight away until your legs are completely straight.\r\nSlowly lower the weight back down into the starting position and repeat.\r\nTips: To make the exercise more challenging, you can try doing single-leg presses or elevated leg presses.",
+                ImageUrl = " https://i.shgcdn.com/54122c2b-0742-41e2-b2ab-94a7b4749063/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+            },
+
+            new()
+            {
+                Name = " Hack Squats",
+                GroupType = " Quads, Hamstrings and Glutes Exercise",
+                Instructions = "  Stand on a linear press machine and recline with your back against the rest. Slide your shoulders under the shoulder pads and position your feet roughly shoulder-width apart. If there are handles in place, grip the handles with your elbows facing forward.\r\nBend your knees and lower through your hips until your knees are at roughly a 90-degree angle.\r\nKeeping your back straight, press up through your heels to raise the weight back up into the starting position.\r\nRepeat for the desired number of repetitions.\r\nTips: Be sure to lower your legs until they are slightly below parallel with the floor. This is where you'll experience the best results.",
+                ImageUrl = " https://i.shgcdn.com/0e35d405-030c-4ae5-be22-2e41a9ee3309/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+            },
+
+            new()
+            {
+                Name = " Leg Extension",
+                GroupType = " Quads Exercise",
+                Instructions = "  Adjust the machine so that your knees are in line with the pivot point and your feet are placed under the padded lever.\r\nChoose a weight that you can comfortably manage and grip the handles, if available.\r\nKeeping your back straight, exhale as you extend your legs forward until they are straight.\r\nPause for a count of two and then slowly lower the weight back down into its starting position.\r\nRepeat the motion for the desired number of repetitions.\r\nTips: If you are new to this exercise, start with a lighter weight and increase the weight as you become more comfortable with the movement.",
+                ImageUrl = " https://i.shgcdn.com/7d7f954a-e744-4d80-b5fe-2b64a857ec44/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+            },
+
+            new()
+            {
+                Name = " Leg Curl",
+                GroupType = " Hammstrings Exercise",
+                Instructions = "  Adjust the length of the machine so that your knees are in line with the pivot point and the backs of your legs are placed under the padded levers.\r\nAdjust the weight to something you can comfortably manage and hold the handles, if available.\r\nWith your back straight, curl your legs up towards your glutes while exhaling through the motion.\r\nTake a second or two to pause, and then slowly lower the weight back down until you are in the starting position again.\r\nRepeat the exercise for the desired number of repetitions.\r\nTips: This motion can feel awkward if you're new to the exercise. Start with a lighter weight and increase over time as you become more comfortable with the movement.",
+                ImageUrl = " https://i.shgcdn.com/0532cb31-06bb-4210-ad8b-7bf1a398af31/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+            },
+
+            new()
+            {
+                Name = " Lunges",
+                GroupType = " Quads, Hamstrings and Glutes Exercise",
+                Instructions = "  Start by standing with your feet together and your hands down by your sides.\r\nStep forward with one leg and lower your body towards the floor by bending both knees.\r\nYour front knee should be at roughly a 90-degree angle, and your back knee should be close to the floor but not resting on it.\r\nFrom here, push off your front leg and return to the starting position as if you were taking a step.\r\nRepeat the exercise with your other leg.\r\nTips: To make this exercise more challenging, try holding dumbbells in each hand or holding a barbell across your shoulders. You can also move forward through the exercise to make it more dynamic.",
+                ImageUrl = " https://i.shgcdn.com/fb379ee5-36ff-46f2-a8c3-0725cd88a8f0/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+            },
+
+            new()
+            {
+                Name = " Standing Calf Raises",
+                GroupType = " Calves Exercise",
+                Instructions = "  Get positioned on an exercise step or a weight plate to create a full range of motion for this movement.\r\nStand with your feet placed together, and have the ball of your foot rest on the edge of the exercise step or weight plate.\r\nHold your hands down by your sides. You may hold a dumbbell in each hand for additional weight.\r\nProceed to raise your body up onto your toes.\r\nLower your body back down into the starting posture.\r\nTips: As with lunges, you can also move forward through the exercise to make it more dynamic.",
+                ImageUrl = " https://i.shgcdn.com/60bac4e9-4e55-4101-9141-956d0b1092c1/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+            },
+
+        };
+
         public static List<Exercise> GetPullExercises()
         {
             return pullday;
@@ -176,6 +236,11 @@ namespace ProjectSsentifGenie.Services
         public static List<Exercise> GetPushExercises()
         {
             return pushday;
+        }
+
+        public static List<Exercise> GetLegExercises()
+        {
+            return legday;
         }
     }
 }
