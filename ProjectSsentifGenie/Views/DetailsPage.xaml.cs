@@ -7,4 +7,9 @@ public partial class DetailsPage : ContentPage
 		InitializeComponent();
 		BindingContext = exercise;
 	}
+
+    private void BackButton_Clicked(System.Object sender, System.EventArgs e)
+    {
+        Navigation.PushModalAsync(new StartPage());
+    }
 }

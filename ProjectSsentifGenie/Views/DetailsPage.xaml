@@ -2,11 +2,30 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProjectSsentifGenie.Views.DetailsPage"
-             Title="DetailsPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             xmlns:models="clr-namespace:ProjectSsentifGenie.Models">
+
+    <Grid
+        x:Name="MainContentGrid"
+        Padding="25,50,25,0"
+        BackgroundColor="#012a4a"
+        ColumnDefinitions="*, Auto"
+        RowDefinitions="Auto,*">
+
+        <ImageButton
+            WidthRequest="30"
+            HeightRequest="20"
+            Margin="-10,-30,0,0"
+            Source="imgback.png"
+            Grid.Row="0"
+            Grid.Column="0"
+            HorizontalOptions="Start"
+            VerticalOptions="Start"
+            BackgroundColor="#012a4a"
+            Clicked="BackButton_Clicked"/>
+
+        <ScrollView>
+            
+        </ScrollView>
+
+    </Grid>
 </ContentPage>
