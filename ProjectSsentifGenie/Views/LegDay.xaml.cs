@@ -18,4 +18,9 @@ public partial class LegDay : ContentPage
         Navigation.PushModalAsync(new StartPage());
     }
 
+    private void Details_Clicked(System.Object sender, SelectionChangedEventArgs e)
+    {
+        Navigation.PushModalAsync(new DetailsPage(e.CurrentSelection.First() as Exercise));
+    }
+
 }
