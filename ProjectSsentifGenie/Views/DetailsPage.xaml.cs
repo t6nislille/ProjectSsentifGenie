@@ -5,15 +5,10 @@ public partial class DetailsPage : ContentPage
 	public DetailsPage(Exercise exercise)
 	{
 		InitializeComponent();
-		this.BindingContext = exercise;
+		BindingContext = exercise;
 	}
 
-    //private void BackButton_Clicked(System.Object sender, System.EventArgs e)
-    //{
-    //    Navigation.PushModalAsync(new StartPage());
-    //}
-
-	async void BackButton_Clicked(System.Object sender, System.EventArgs e)
+	async void BackButton_Clicked(object sender, EventArgs e)
 	{
 		await Navigation.PopAsync();
 	}
