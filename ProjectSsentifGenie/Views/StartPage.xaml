@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ProjectSsentifGenie.Views.StartPage">
+             x:Class="ProjectSsentifGenie.Views.StartPage"
+             Title="Fitness">
     <Grid
             x:Name="MainContentGrid"
             Padding="10,20,10,0"
@@ -111,11 +112,31 @@
                         Clicked="LegDay_Clicked">
             </Button>
         </Border>
-        <Button Text="Gym"
-                Command="{Binding }"
+        <!-- Gym-->
+        <Border
+                Padding="2,0"
+                BackgroundColor="LightBlue"
+                Margin="0,0,0,-400"
+                HeightRequest="90"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Stroke="black"
                 Grid.Row="1"
-                Grid.Column="1"
-                Margin="8" />
+                Grid.Column="0"
+                Grid.ColumnSpan="2">
+
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="50"/>
+            </Border.StrokeShape>
+
+            <Button Text="Gym"
+                        FontSize="30"
+                        BackgroundColor="LightBlue"
+                        TextColor="Black"
+                        CornerRadius="50"
+                        Clicked="GymList_Clicked">
+            </Button>
+        </Border>
 
 
     </Grid>

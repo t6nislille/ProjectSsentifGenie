@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjectSsentifGenie.Views.GymPage"
+             xmlns:model="clr-namespace:ProjectSsentifGenie.Models"
+             x:DataType="model:Gym"
+             Title="GymPage">
+    
+    <!-- Main Content -->
+    <Grid
+            Padding="25,50,25,0"
+            BackgroundColor="#012a4a"
+            ColumnDefinitions="*, *"
+            RowDefinitions="Auto,*"
+            RowSpacing="0">
+
+        <!-- Back button-->
+        <ImageButton
+            WidthRequest="30"
+            HeightRequest="20"
+            Margin="-10,-30,0,0"
+            Source="imgback.png"
+            Grid.Row="0"
+            Grid.Column="0"
+            HorizontalOptions="Start"
+            VerticalOptions="Start"
+            BackgroundColor="#012a4a"
+            Clicked="BackButton_Clicked"/>
+
+        <!-- Main content -->
+
+
+        <CollectionView
+                    x:Name="gymlist"
+                    SelectionMode="Single">
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="model:Gym">
+                    <Grid Padding="10">
+                        <Frame HeightRequest="125"
+                               Padding="0">
+
+                            <Grid Padding="0"
+                                  ColumnDefinitions="125, *">
+
+                                <Image Aspect="AspectFill"
+                                       Source="{Binding ImageUrl}"
+                                       WidthRequest="125"
+                                       HeightRequest="125"/>
+
+                                <VerticalStackLayout Grid.Column="1"
+                                                     Padding="10"
+                                                     VerticalOptions="Center">
+
+                                    <Label Text="{Binding Name}" />
+
+                                </VerticalStackLayout>
+                            </Grid>
+                        </Frame>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+</ContentPage>

@@ -21,4 +21,9 @@ public partial class StartPage : ContentPage
     {
         Navigation.PushModalAsync(new LegDay());
     }
+
+    private void GymList_Clicked(System.Object sender, EventArgs e)
+    {
+        Navigation.PushModalAsync(new GymPage());
+    }
 }
