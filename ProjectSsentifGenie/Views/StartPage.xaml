@@ -111,5 +111,12 @@
                         Clicked="LegDay_Clicked">
             </Button>
         </Border>
+        <Button Text="Gym"
+                Command="{Binding }"
+                Grid.Row="1"
+                Grid.Column="1"
+                Margin="8" />
+
+
     </Grid>
 </ContentPage>
